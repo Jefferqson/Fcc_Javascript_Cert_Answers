@@ -1,12 +1,12 @@
-# The exercise starts with a string
-palindrome_string = "A man, a plan, a canal. Panama"
-new_string = ""
-for ch in palindrome_string:
-    if ch.isalpha():
-        ch += new_string
+# Python Equivalent to the passing JS code
+def palindrome(palindrome_string):
+    new_string = ""
+    for ch in palindrome_string:
+        if ch.isalpha():
+            new_string += ch
+        else:
+            pass
+    if new_string == new_string[::-1]:
+        return True
     else:
-        pass
-if new_string == new_string[::-1]:
-    print(True)
-else:
-    print(False)
+        return False
