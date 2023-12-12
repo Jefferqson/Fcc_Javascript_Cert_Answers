@@ -12,3 +12,6 @@ I was determined with this project not to have to type out 40 characters in nume
 
 (3) Ceaser Cipher
 My first goal was to avoid having to type out every letter in the dictionary. This was not feasible. My second goal was to avoid having to type out an object of letter, number pairs for every letter in the alphabet. This proved more feasible. Solving this challenge was rather straightforward. The only conceptual difficulty was how to deal with letters from the second half of the alphabet being offset by 13. You can just subtract 13 from them, instead of adding it (though I had to count this out to be sure). The only syntactic difficulty I ran into was that Javascript did not seem to like the syntax of 0 <= variable <= 12 which the Python IDE I am using had shamed me into using. 
+
+(4) Telephoen Validator
+I won't be doing this one in Python too since it is really just a couple of regex and nothing else. I enjoyed this one. I broke the regex into two parts depending on whether or not there were 10 digits in a row or 3, 3, and 4 digits. I went through and considered as many cases as I could think of, then ran it against the tests on the site, modifying it along the way. 
